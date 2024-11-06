@@ -14,9 +14,19 @@ favorite_languages = {
 'edward': 'ruby',
 'phil': 'python',
 }
+for i in sorted(favorite_languages):
+    print(i)
+    print(favorite_languages[i])
+    print('_____________________')
+
 
 for i in sorted(favorite_languages.keys()):
     print(i)
-
 favorite_languages.pop('phil')
 print(favorite_languages)
+
+
+
+
+def get_devide(a="90",b=90): #get_devide=a/b
+    return a/b
